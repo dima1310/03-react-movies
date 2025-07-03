@@ -7,8 +7,3 @@ export interface Movie {
   release_date: string;
   vote_average: number;
 }
-
-export interface MovieGridProps {
-  movies: Movie[];
-  onSelect: (movie: Movie) => void;
-}
