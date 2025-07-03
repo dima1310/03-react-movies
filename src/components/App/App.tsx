@@ -4,7 +4,7 @@ import SearchBar from "../SearchBar/SearchBar";
 import MovieGrid from "../MovieGrid/MovieGrid";
 import MovieModal from "../MovieModal/MovieModal";
 import { fetchMovies } from "../../services/movieService";
-import type { Movie } from "../../types/types";
+import type { Movie } from "../../types/movie";
 
 const App = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
